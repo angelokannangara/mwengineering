@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MW Engineering</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles if needed, but Tailwind should handle most */
+        .industrial-orange {
+            background-color: #FF6B00;
+        }
+        .project-image-placeholder {
+            min-height: 250px; /* Ensure images have a visible area even if not loaded */
+            background-color: #e2e8f0; /* Tailwind gray-200 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: #4a5568; /* Tailwind gray-700 */
+            text-align: center;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-100">
+    <!-- Navigation (reused from mw-engineering for consistency) -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center mr-3">
+                    <i class="fas fa-industry text-white text-xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-gray-800">MW ENGINEERING</h1>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="mw-engineering.html#services" class="text-gray-700 hover:text-orange-600 font-medium">Services</a>
+                <a href="mw-engineering.html#projects" class="text-gray-700 hover:text-orange-600 font-medium">Projects</a>
+                <a href="mw-engineering.html#about" class="text-gray-700 hover:text-orange-600 font-medium">About Us</a>
+                <a href="mw-engineering.html#contact" class="text-gray-700 hover:text-orange-600 font-medium">Contact</a>
+            </div>
+            <button class="md:hidden text-gray-700">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Project Details Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4 max-w-4xl bg-white rounded-lg shadow-lg p-8">
+            <a href="mw-engineering.html#projects" class="text-orange-600 hover:text-orange-800 font-medium mb-6 flex items-center">
+                <i class="fas fa-arrow-left mr-2"></i> Back to Projects
+            </a>
+
+            <div class="mt-8">
+                <div class="text-center mb-8">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Fabrication and Welding Ammonia Gas Pipe Line for Vallibel Holdings</h2>
+                    <p class="text-lg text-gray-600 mb-2"><strong>Client:</strong> Vallibel Holdings (Pvt) Ltd.</p>
+                    <p class="text-md text-gray-500 italic"><strong>Date Completed:</strong> 2012</p>
+                </div>
+                
+                <img src="https://etimg.etb2bimg.com/photo/106314395.cms" 
+                     alt="Main Project Image: Ammonia Gas Pipeline" 
+                     class="w-full h-96 object-cover rounded-lg mb-8 shadow-md">
+
+                <div class="text-gray-700 leading-relaxed text-lg mb-8">
+                    <p class="mb-4">
+                        This critical project involved the fabrication, welding, and installation of an ammonia gas pipeline for Vallibel Holdings (Pvt) Ltd.
+                    </p>
+                    <p class="mb-4">
+                        Due to the nature of ammonia, the project required specialized welding techniques, including Argon Gas welding and 100% X-Ray quality welding, to ensure the highest standards of safety and leak-proof integrity. Our team meticulously executed every phase to deliver a compliant and reliable pipeline system.
+                    </p>
+                    <p>
+                        The project was successfully completed in 2012, highlighting our expertise in handling hazardous material pipelines with precision and adherence to strict industry standards.
+                    </p>
+                </div>
+
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">Project Gallery</h3>
+                    <div class="image-gallery">
+                        
+                        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                            <img src="project601.png" 
+                                 
+                                class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <div class="text-white text-center p-4">
+                                    <h3 class="text-xl font-bold mb-2">Ammonia Gas Pipe Line</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                            <img src="project602.png" 
+                                 
+                                class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <div class="text-white text-center p-4">
+                                    <h3 class="text-xl font-bold mb-2">Ammonia Gas Pipe Line</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                            <img src="project603.png" 
+                                 
+                                class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <div class="text-white text-center p-4">
+                                    <h3 class="text-xl font-bold mb-2">Ammonia Gas Pipe Line</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                            <img src="project604.png" 
+                                 
+                                class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                                <div class="text-white text-center p-4">
+                                    <h3 class="text-xl font-bold mb-2">Ammonia Gas Pipe Line</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <p class="text-sm text-gray-500 mt-6 text-center">
+                        Note: Placeholder images are used. Please replace the `src` attributes with actual image URLs of your project photos.
+                    </p>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (reused from mw-engineering for consistency) -->
+    <footer class="bg-gray-900 text-gray-400 py-12 mt-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-industry text-orange-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">MW ENGINEERING</h3>
+                    </div>
+                    <p class="mb-4">Industrial fabrication and construction specialists serving Sri Lanka with quality and precision.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-orange-600 transition"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-orange-600 transition"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-orange-600 transition"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="mw-engineering.html#services" class="hover:text-orange-600 transition">Tank Fabrication</a></li>
+                        <li><a href="mw-engineering.html#services" class="hover:text-orange-600 transition">Pipeline Installation</a></li>
+                        <li><a href="mw-engineering.html#services" class="hover:text-orange-600 transition">Steel Structures</a></li>
+                        <li><a href="mw-engineering.html#services" class="hover:text-orange-600 transition">Equipment Rental</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="mw-engineering.html#services" class="hover:text-orange-600 transition">Our Services</a></li>
+                        <li><a href="mw-engineering.html#projects" class="hover:text-orange-600 transition">Projects</a></li>
+                        <li><a href="mw-engineering.html#about" class="hover:text-orange-600 transition">About Us</a></li>
+                        <li><a href="mw-engineering.html#contact" class="hover:text-orange-600 transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-4">Business Hours</h4>
+                    <ul class="space-y-2">
+                        <li class="flex justify-between">
+                            <span>Monday - Friday</span>
+                            <span>8:00 - 17:00</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Saturday</span>
+                            <span>8:00 - 13:00</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Sunday</span>
+                            <span>Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pt-8 border-t border-gray-800 text-center">
+                <p>&copy; 2025 MW Engineering. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
